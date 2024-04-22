@@ -2,7 +2,7 @@ const { v4: uuid } = require("uuid");
 
 const products = [
   {
-    _id: uuid(),
+    _id: 100,
     title: "Wings of fire",
     author: "A. P. J. Abdul Kalam",
     description: "Wings of Fire: An Autobiography of APJ Abdul Kalam, former President of India. It was written by Dr. Abdul Kalam and Arun Tiwari. Dr. Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs.",
@@ -11,7 +11,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/51vgy3LMz6L._AC_UY327_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 101,
     title: "Steve Jobs",
     author: "Walter Isaacson",
     description: "Steve Jobs is the authorized self-titled biography of American business magnate and Apple co-founder Steve Jobs. The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein.",
@@ -20,7 +20,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/41n1edvVlLL._AC_UY327_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 102,
     title: "The Psychology of money",
     author: "Morgan Housel",
     description: "Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people.Money—investing, personal finance, and business decisions—is typically taught as a math-based field, where data and formulas tell us exactly what to do.",
@@ -29,7 +29,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/81C0rgkaoGL._AC_UY327_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 103,
     title: "Deep Work",
     author: "Cal Newport",
     description: "One of the most valuable skills in our economy is becoming increasingly rare. If you master this skill, you'll achieve extraordinary results.Deep Work is an indispensable guide to anyone seeking focused.",
@@ -38,7 +38,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/411r+u9cd7L._AC_UY327_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 104,
     title: "Atomic Habits",
     author: "James Clear",
     description: "The #1 New York Times bestseller. Over 4 million copies sold!Tiny Changes, Remarkable ResultsNo matter your goals, Atomic Habits offers a proven framework for improving--every day.",
@@ -47,7 +47,7 @@ const products = [
     image: "https://images-na.ssl-images-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 105,
     title: "Zero to One",
     author: "Peter Thiel",
     description: "Zero to One: Notes on Startups, or How to Build the Future is a 2014 book by the American entrepreneur and investor Peter Thiel co-written with Blake Masters.",
@@ -56,7 +56,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/71m-MxdJ2WL._AC_UY327_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 106,
     title: "Rich Dad Poor Dad",
     author: "Robert T. Kiyosaki",
     description: "Rich Dad Poor Dad is a 1997 book written by Robert T. Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence.",
@@ -65,7 +65,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY327_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 107,
     title: "Think and Grow Rich",
     author: "Napoleon Hill",
     description: "Think and Grow Rich is a book written by Napoleon Hill in 1937 and promoted as a personal development and self-improvement book. He claimed to be inspired by a suggestion from business magnate and later-philanthropist Andrew Carnegie.",
@@ -74,7 +74,7 @@ const products = [
     image: "https://images-eu.ssl-images-amazon.com/images/I/71AdHA+qqwL._AC_UL160_SR160,160_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 108,
     title: "Fire and Blood",
     author: "George R.R. Martin",
     description: "Fire & Blood is a fantasy book by American writer George R. R. Martin. It tells the history of House Targaryen, a family from his series A Song of Ice and Fire.",

@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { useAuth } from 'context'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const { isLogin, username, authDispatch } = useAuth();
-  const logoutHandler = () => {
+
+  const logoutHandler = useCallback(() => {
+    authDispatch({ type: 'USER_LOGOUT' });
+    authDispatch({ type: 'USER_DATA_REMOVE' });
     localStorage.clear();
-    authDispatch({ type: "USER_LOGOUT" })
-  }
+  }, [authDispatch]);
 
   return (
     <>

@@ -16,12 +16,14 @@ const Login = () => {
       if (response.status === 200) {
         localStorage.setItem('isLoginStatus', true);
         localStorage.setItem('userData', JSON.stringify(response.data.user));
-        authDispatch({ type: "USER_LOGIN" })
-        authDispatch({ type: "USER_DATA_ADD", payload: response.data.user })
+
+        authDispatch({ type: "USER_LOGIN" });
+        authDispatch({ type: "USER_DATA_ADD", payload: response.data.user });
+
         navigate("/")
       }
     } catch (error) {
-        
+        console.error("Login failed:", error);
     }
   }
   return (
